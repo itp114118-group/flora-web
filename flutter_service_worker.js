@@ -3,71 +3,50 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c613f1f53308de95771f973ef0335bd4",
-"assets/assets/fonts/SF_Pro_Text/SFProText-Bold.ttf": "d6079ef01292c4bc84dce33988641530",
-"assets/assets/fonts/SF_Pro_Text/SFProText-Medium.ttf": "a260cbc18870da144038776461d9df28",
-"assets/assets/fonts/SF_Pro_Text/SFProText-Regular.ttf": "85bd46c1cff02c1d8360cc714b8298fa",
-"assets/assets/fonts/SF_Pro_Text/SFProText-Semibold.ttf": "1a131c948d598ecec700d37d168a15b5",
-"assets/assets/icons/camera.svg": "9eb2eef4ba2cae5b630edf7798d6ecd8",
-"assets/assets/icons/explore.svg": "6e2e7d27b722bf056e4b27053f291506",
-"assets/assets/icons/facebook.svg": "a8497c6b01d4c37d801c6fadd116da90",
-"assets/assets/icons/filter.svg": "6f0c192822f1b357503fb0b1a6e89551",
-"assets/assets/icons/google.svg": "1f53320629b0a6f605e98a13e48240fb",
-"assets/assets/icons/home.svg": "a86b0775bfe16f3a2c38d0dacb1c7dff",
-"assets/assets/icons/logo.svg": "a54ccd5ecb768bee710ea0ff273b64b6",
-"assets/assets/icons/profile_contact.svg": "454eeb5f10cdd1bf42941dd2edbb798f",
-"assets/assets/icons/profile_favorite.svg": "22e7ffb4a0b27c03e218ad431bbaff5f",
-"assets/assets/icons/profile_fqa.svg": "fd504951a8cb4fc3f5086285538878cd",
-"assets/assets/icons/profile_manual.svg": "eb6108e067d9cb3aaa5244f1962559b2",
-"assets/assets/icons/profile_settings.svg": "b9f33b5f228a917044505c0ec15aaa55",
-"assets/assets/icons/search.svg": "7c9a6f0cb0b819b58e9ed7c5b0717713",
-"assets/assets/icons/transparent.svg": "762b8f62bcb2788e7d512a5ed42072ed",
-"assets/assets/icons/twitter.svg": "e8d54dd3bd3466fc88043bdd12765875",
-"assets/assets/icons/user.svg": "dc368bcf8dd5cb9d7d00a72ea722c87c",
-"assets/assets/illustrations/Illustrations_1.svg": "5daa042a5070ae0076f38e928e59f5f7",
-"assets/assets/illustrations/Illustrations_2.svg": "44ea43c5260af54399963a77bd283e31",
-"assets/assets/illustrations/Illustrations_3.svg": "8c464248dafd7b4c1d6dcc4b3a61bd3c",
-"assets/assets/images/card_1.jpg": "483a87ee78f9524b5cbad0f6872c72a5",
-"assets/assets/images/card_2.jpg": "dafc98bbd6625797f84de7c408002ea0",
-"assets/assets/images/card_3.jpg": "eb0e0c9ab9be524753c5d14bbe6799c4",
-"assets/assets/images/card_4.jpg": "b601857714aec0146bc64fa7891cce39",
-"assets/assets/images/placeholder_avatar.png": "06ebc68ebc8bf98f18161d7ebd3eacaf",
-"assets/assets/images/profile_icon.jpg": "d995d728def36a40a261e36bab9f9bfe",
+  "assets/AssetManifest.json": "de93df0098d7476f42c54ecb4e2c66a5",
+"assets/assets/fonts/averia_libre/averialibre_bold.ttf": "378a11f21e81afc740d5fc05a95b8fcc",
+"assets/assets/fonts/averia_libre/averialibre_regular.ttf": "397fb17d4f0bb66d2d249c6768071164",
+"assets/assets/fonts/bree_serif/breeserif_regular.ttf": "14aaff013398c35430cc935d1e4dcd99",
+"assets/assets/icons/app_logo.png": "1e54f158af061971ed6f91c8114aabd8",
+"assets/assets/icons/app_logo_dark.png": "78c68fa800edc4b27d4a62ca66414f4a",
+"assets/assets/icons/menu_logo.png": "1d0e2f8abff45fc38f9efea4a720f595",
+"assets/assets/icons/navbar_icons/ic_home.svg": "a5566c420e7f1d5da0c8019d4ccb84a8",
+"assets/assets/icons/navbar_icons/ic_home_active.svg": "4e611acc23b9f775f8d12c6999cb94c1",
+"assets/assets/icons/navbar_icons/ic_mark.svg": "fc0432d5aaf9ed7e1b9839122464cd1e",
+"assets/assets/icons/navbar_icons/ic_mark_active.svg": "46ecafff5efcd4aedddb8a8b473075f9",
+"assets/assets/icons/navbar_icons/ic_message.svg": "7eb31e8d13031a1662cf7e8830f6702f",
+"assets/assets/icons/navbar_icons/ic_message_active.svg": "36232beecb204f2a14f1a050b7f06ba2",
+"assets/assets/icons/navbar_icons/ic_profile.svg": "b66225ca19862fe7dedfd639938827dc",
+"assets/assets/icons/navbar_icons/ic_profile_active.svg": "a273faf0ce80b4ca99b35733db3e8703",
+"assets/assets/icons/navbar_icons/ic_search.svg": "fa7436caaa60e6c65a3cdf1f965d3407",
+"assets/assets/icons/navbar_icons/ic_search_active.svg": "7c39660d5f965227d812e67c793bb3cb",
+"assets/assets/images/About_background.png": "77cdb3ebec7c5e613dae1243e303d222",
+"assets/assets/images/AI_background.png": "17aef830e221656ed5716e5c26885659",
+"assets/assets/images/apple_pay.png": "b05fa86de6799389f778801c3b1a9d18",
+"assets/assets/images/facebook_login_button.png": "f00ee651553f4b307da508107be0c9d1",
+"assets/assets/images/google_login_button.png": "24f9919b0d00a905de12313c61392e3c",
+"assets/assets/images/google_pay.png": "93b78f6c75fa952fb651bd3aec2df4fa",
+"assets/assets/images/home_background.png": "67b3f7578816de80bbc7d705e7d72880",
+"assets/assets/images/Location_background.png": "0bbb92b6341d7a2f1e4e4fd0c16dd1bd",
+"assets/assets/images/login_with.svg": "30a8bf6ccc6daf265ca436e05e280254",
+"assets/assets/images/status_login.svg": "08add45c957ce75409d3e8d8cf8270b5",
+"assets/assets/images/status_register.svg": "de3429eecaffaad6ae93a43f235c8a43",
+"assets/assets/images/sub_background.png": "950c4e6de020c010750ac0318282be18",
 "assets/assets/images/teamwork.jpg": "317a06576deee88232190bb3f2e04810",
 "assets/assets/images/vrilustration.png": "ea7d516fc55aee1afbd7a73fad128a92",
-"assets/assets/md/terms_and_conditions.md": "95457427c2f0d8b5f1bafc5c4904d74c",
-"assets/FontManifest.json": "0c689a1e3c30ae765c770e1067834fd8",
+"assets/FontManifest.json": "10d438080d51af26e0b53d40c6376366",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "6aae7a5975db06b15c50447f39a57503",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
-"assets/packages/flutter_icons/fonts/AntDesign.ttf": "3a2ba31570920eeb9b1d217cabe58315",
-"assets/packages/flutter_icons/fonts/Entypo.ttf": "744ce60078c17d86006dd0edabcd59a7",
-"assets/packages/flutter_icons/fonts/EvilIcons.ttf": "140c53a7643ea949007aa9a282153849",
-"assets/packages/flutter_icons/fonts/Feather.ttf": "6beba7e6834963f7f171d3bdd075c915",
-"assets/packages/flutter_icons/fonts/FontAwesome.ttf": "b06871f281fee6b241d60582ae9369b9",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Brands.ttf": "c39278f7abfc798a241551194f55e29f",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Regular.ttf": "f6c6f6c8cb7784254ad00056f6fbd74e",
-"assets/packages/flutter_icons/fonts/FontAwesome5_Solid.ttf": "b70cea0339374107969eb53e5b1f603f",
-"assets/packages/flutter_icons/fonts/Foundation.ttf": "e20945d7c929279ef7a6f1db184a4470",
-"assets/packages/flutter_icons/fonts/Ionicons.ttf": "b2e0fc821c6886fb3940f85a3320003e",
-"assets/packages/flutter_icons/fonts/MaterialCommunityIcons.ttf": "3c851d60ad5ef3f2fe43ebd263490d78",
-"assets/packages/flutter_icons/fonts/MaterialIcons.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
-"assets/packages/flutter_icons/fonts/Octicons.ttf": "73b8cff012825060b308d2162f31dbb2",
-"assets/packages/flutter_icons/fonts/SimpleLineIcons.ttf": "d2285965fe34b05465047401b8595dd0",
-"assets/packages/flutter_icons/fonts/weathericons.ttf": "4618f0de2a818e7ad3fe880e0b74d04a",
-"assets/packages/flutter_icons/fonts/Zocial.ttf": "5cdf883b18a5651a29a4d1ef276d2457",
+"assets/NOTICES": "a17c6cfed0cdd880e397a2589865e889",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/flutter_markdown/assets/logo.png": "67642a0b80f3d50277c44cde8f450e50",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "7f5dbb8261b8b5f37efc3bd5d67d247d",
-"/": "7f5dbb8261b8b5f37efc3bd5d67d247d",
-"main.dart.js": "e391668801dde83c402ddbb2095bb385",
-"manifest.json": "92cf5ee8800d7d695b25d1e7569419d3",
-"version.json": "87a1b749bbe351bce247cc4df1142036"
+"index.html": "eb27e434a6a0404e8d97b034ca2690ea",
+"/": "eb27e434a6a0404e8d97b034ca2690ea",
+"main.dart.js": "6ae3478b4be76229c11a304f7d196684",
+"manifest.json": "0ceccd831badde5b973e7af798d27ec1",
+"version.json": "fb800d37cb51ce25f91a8114a375508b"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -85,7 +64,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -211,7 +190,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
